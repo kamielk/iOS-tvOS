@@ -36,6 +36,7 @@
 		5125BFD61BCCCD0000194423 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5125BFBB1BCCCD0000194423 /* DDDispatchQueueLogFormatter.m */; };
 		5125BFD71BCCCD0000194423 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5125BFBD1BCCCD0000194423 /* DDMultiFormatter.m */; };
 		5125BFD81BCCCD0000194423 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5125BFBE1BCCCD0000194423 /* README.txt */; };
+		EAA3DCAC1E9C08A300C0F718 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3DCAB1E9C08A300C0F718 /* ColorHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		5125BFBD1BCCCD0000194423 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
 		5125BFBE1BCCCD0000194423 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		5125BFD91BCCCD3800194423 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		EAA3DCAB1E9C08A300C0F718 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				5125BF611BCCCD0000194423 /* Utils */,
 				5125BF501BCCCC8300194423 /* AppDelegate.swift */,
 				5125BF521BCCCC8300194423 /* FirstViewController.swift */,
+				EAA3DCAB1E9C08A300C0F718 /* ColorHelper.swift */,
 				5125BF561BCCCC8300194423 /* Main.storyboard */,
 				5125BF591BCCCC8300194423 /* Assets.xcassets */,
 				5125BF5B1BCCCC8300194423 /* Info.plist */,
@@ -582,6 +585,7 @@
 				TargetAttributes = {
 					5125BF4C1BCCCC8300194423 = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -634,6 +638,7 @@
 				5125BFD71BCCCD0000194423 /* DDMultiFormatter.m in Sources */,
 				5125BFD01BCCCD0000194423 /* DDAbstractDatabaseLogger.m in Sources */,
 				5125BFD21BCCCD0000194423 /* DDFileLogger.m in Sources */,
+				EAA3DCAC1E9C08A300C0F718 /* ColorHelper.swift in Sources */,
 				5125BFD51BCCCD0000194423 /* DDContextFilterLogFormatter.m in Sources */,
 				5125BFCE1BCCCD0000194423 /* AsyncUdpSocket.m in Sources */,
 				5125BFCC1BCCCD0000194423 /* README.markdown in Sources */,
@@ -755,6 +760,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.driiivin.tvOS-Server";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = Utils/BridgingHeader.h;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -768,6 +774,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.driiivin.tvOS-Server";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = Utils/BridgingHeader.h;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
